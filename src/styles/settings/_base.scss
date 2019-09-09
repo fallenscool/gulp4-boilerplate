@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  outline: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+  font-family: $font-family;
+  font-weight: $font-thin;
+  color: $color-black;
+  scroll-behavior: smooth;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  color: $color-black;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+section {
+  padding: 30px 0;
+}

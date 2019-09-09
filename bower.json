@@ -1,0 +1,19 @@
+{
+  "name": "NGS",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "n1ce"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "src/libs/",
+    "test"
+  ],
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
